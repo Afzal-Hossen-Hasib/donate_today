@@ -32,6 +32,7 @@
     text-align: center;
     font-weight: 900;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px gray;
 }
 
 .banner-para {
@@ -67,6 +68,7 @@
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px gray;
 }
 
 .donate-para {
@@ -136,6 +138,7 @@
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px gray;
 }
 
 .plan-para {
@@ -216,6 +219,7 @@
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px gray;
 }
 
 .update-container p {
@@ -257,4 +261,73 @@
     font-size: 20px;
     border-radius: 0px 5px 5px 0px;
     margin-top: 75px;
+}
+
+/* News Section Style  */
+.news-continer {
+    width: 80%;
+    margin: 130px auto;
+}
+
+.news-continer h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.news-continer p {
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.reporter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-news {
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 5px;
+    height: 450px;
+}
+
+.first-news h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.one img {
+    width: 400px;
+}
+
+.two img {
+    width: 400px;
+}
+
+.three img {
+    width: 400px;
+}
+
+.new-reporter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.news-rep {
+    display: flex;
+    align-items: center;
+}
+
+.new-reporter img {
+    border-radius: 50%;
+    margin-right: 10px;
 }
