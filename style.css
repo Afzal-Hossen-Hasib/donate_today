@@ -71,7 +71,6 @@
 
 .donate-para {
     font-size: 18px;
-    font-weight: bold;
     text-align: center;
     color: #707070;
     margin-bottom: 90px;
@@ -141,7 +140,6 @@
 
 .plan-para {
     font-size: 18px;
-    font-weight: bold;
     text-align: center;
     color: #707070;
     margin-bottom: 90px;
@@ -205,4 +203,58 @@
 .donate-plan p {
     font-size: 18px;
     color: #707070;
+}
+
+/* Update Section Style  */
+.update-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.update-container h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.update-container p {
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    background: #FFF4D6;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-input {
+    width: 270px;
+    height: 50px;
+    padding-left: 20px;
+    border: none;
+    font-size: 18px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 75px;
+}
+
+.sub-button {
+    width: 100px;
+    height: 50px;
+    background: #FF5959;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 75px;
 }
