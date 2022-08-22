@@ -59,7 +59,7 @@
 
 .donate-container {
     width: 80%;
-    margin: 100px auto;
+    margin: 130px auto;
 }
 
 .donate-container h1 {
@@ -124,4 +124,85 @@
     border: none;
     display: block;
     margin: 40px auto;
+}
+
+/* Donate Plan Section Style */
+.donate-plan-container {
+    width: 80%;
+    margin: 130px auto;
+}
+
+.donate-plan-container h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan-para {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 90px;
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-container {
+    width: 400px;
+    height: 400px;
+    background: rgba(7, 164, 182, 0.1);
+    border-radius: 5px;
+    padding: 65px 20px;
+    text-align: justify;
+}
+
+.food-container img {
+    width: 58px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.shelter-container{
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 65px 20px;
+    text-align: justify;
+}
+
+.shelter-container img {
+    width: 58px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.education-container {
+    width: 400px;
+    height: 400px;
+    background: rgba(219, 198, 8, 0.1);
+    border-radius: 5px;
+    padding: 65px 20px;
+    text-align: justify;
+}
+
+.education-container img {
+    width: 58px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.donate-plan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.donate-plan p {
+    font-size: 18px;
+    color: #707070;
 }
